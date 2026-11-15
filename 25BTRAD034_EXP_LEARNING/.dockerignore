@@ -1,0 +1,42 @@
+# Environment files and local secrets
+.env
+.env.*
+*.env
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+.venv/
+build/
+dist/
+*.egg-info/
+
+# Local databases and instance runtime files
+instance/
+*.db
+*.sqlite
+*.sqlite3
+
+# Local test suites and logs
+test_*.py
+run_all_audits.py
+*.log
+logs/
+
+# Local upload data
+uploads/*
+!uploads/.gitkeep
+
+# IDE and OS metadata
+.git/
+.gitignore
+.dockerignore
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
